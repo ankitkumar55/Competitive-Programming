@@ -1,0 +1,32 @@
+
+//https://leetcode.com/contest/biweekly-contest-110/submissions/detail/1013014379/
+
+class Solution {
+public:
+    int accountBalanceAfterPurchase(int purchaseAmount) {
+        
+        int ans;
+        
+        if(purchaseAmount ==0 ){
+            return 100;
+        }
+        
+        
+        int t= purchaseAmount/10;
+        
+        float p=(10*t + 10*(t+1))/2;
+        
+        
+        
+        if( purchaseAmount >= p){
+            ans=10*(t+1);
+            
+        }
+        else{
+            ans= 10*t;
+        }
+        
+        return 100-ans;
+        
+    }
+};
