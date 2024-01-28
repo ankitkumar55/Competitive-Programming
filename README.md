@@ -50,5 +50,5 @@ If you want to contribute to this repository, follow these steps:
 6. Push to the branch: `git push origin feature-name`.
 7. Open a pull request.
 
-####Feel free to explore and find solutions relevant to your needs
+#### Feel free to explore and find solutions relevant to your needs
 
